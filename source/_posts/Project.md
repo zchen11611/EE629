@@ -13,6 +13,8 @@ description:
 
 ## Final Project- Face recognition_live detection
 
+![a](/images/face.jpg)
+
 ### 1.Introduction
 
 The well-known Alipay (Chinese payment platform) uses face++ services to realize face recognition. In actual projects, iFLYTEK’s face recognition SDK is used for secondary packaging to achieve live recognition.
