@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "checkJs": true,
+    "lib": ["es2018", "dom"],
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "public",
+    "source/js"
+  ],
+  "typeAcquisition": {
+    "include": [
+      "jquery",
+      "requirejs",
+      "node",
+      "materialize-css"
+    ]
+  }
+}
