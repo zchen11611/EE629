@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的项目报告 #网站标题
+title:  #网站标题
 # subtitle: 又一个GoodHexo小站 #网站副标题
 description: 基于GoodHexo便携包搭建的博客，官方网站：http://yiwangmeng.com #网站描述
 keywords: '一网盟,yiwangmeng,GoodHexo,hexo便携版' #网站SEO关键词，多个词用英文逗号区隔
