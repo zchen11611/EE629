@@ -1,7 +1,8 @@
 # Header
 menu:
   Home: /
-  Blog: /blog
+  Project: /Project.html
+  Weekly Reports: /Weekly_Reports.html
 
 rss: /atom.xml
 
