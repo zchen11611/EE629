@@ -1,5 +1,5 @@
 ---
-title: 'WELCOME TO MY Page'
+title: 'WELCOME TO Zhi's Page'
 categories: 
 tags: 
 toc: true
@@ -9,7 +9,7 @@ description:
 ---
 
 ![a](/images/IoT-Device-Attacks.jpg)
-This webpage I will share my weekly reports, course project and any other contributions. All can be accessed using the top navigation menu:
+Hi, I'm Zhi Chen. This webpage I will share my weekly reports, course project and any other contributions. All can be accessed using the top navigation menu:
 
 The weekly reports page will be about my weekly work on the Internet of Things course (EE-629) and I will record the content of my weekly study.
 
