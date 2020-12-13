@@ -1,5 +1,5 @@
 ---
-title: 'WELCOME TO MY PAGE'
+title: 'WELCOME TO Zhi's Page'
 categories: 
 tags: 
 toc: true
