@@ -21,6 +21,4 @@ My project will be a Python program called Face recognition_live detection.
 
 Labs: could not get my hand on a Raspberry Pi, therefore, I tried to study it manually which helped me understand how to handle it, and hopefully, in coming days I will buy one as I have plans to implement some ideas with it.
 
-Contributions: hopefully, my Python program will help any developer that wants a function to calculate the distance between two addresses and the current temperature of them. Also, I am proud that I have a badge as an Arctic Code Vault Contributor on GitHub.
-
 Project: can be found on Project page with the code.
