@@ -16,7 +16,7 @@ description:
 ### 1.Introduction
 
 The well-known Alipay (Chinese payment platform) uses face++ services to realize face recognition. In actual projects, iFLYTEK’s face recognition SDK is used for secondary packaging to achieve live recognition.
-In actual use, many apps have implemented fingerprint login, gesture login, third-party login, and face-swiping login in order to ensure the safety of users. In addition to the regular account and password login, I will follow up with you. Share how to realize the live detection of face recognition, which is the most basic implementation for realizing face recognition login.
+In actual use, many apps have implemented fingerprint login, gesture login, third-party login, and face-swiping login in order to ensure the safety of users. In addition to the regular account and password login, I will Share how the project realizes the live detection of face recognition, which is the most basic implementation for realizing face recognition login.
 
 ### 2.Project realization ideas
 
