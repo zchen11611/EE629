@@ -6,9 +6,9 @@ toc: true
 comments: true
 keywords: 
 description: 
-![alt](/images/test.jpg)
 ---
 
+![alt](/images/test.jpg)
 This webpage I will share my weekly reports, course project and any other contributions. All can be accessed using the top navigation menu:
 
 The weekly reports page will be about my weekly work on the Internet of Things course (EE-629) and I will record the content of my weekly study.
