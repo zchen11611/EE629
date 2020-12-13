@@ -1,0 +1,44 @@
+name: HEXO CI #task name display
+
+on: [push] #git event
+
+jobs:
+  build:
+    name: Auto deploy website
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: Checkout #step1 get code
+        uses: actions/checkout@v2 #use existing script
+        with:
+          submodules: true #Checkout private submodules(themes or something else)
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Set environment
+        env:
+          USER_NAME: zchen11611 #git user.name
+          USER_EMAIL: a104366259@outlook.com  #git user.email
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}} #git deploy key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "$USER_NAME"
+          git config --global user.email "$USER_EMAIL"
+
+      - name: Install dependencies
+        run: |
+          npm i -g hexo-cli
+          npm i
+
+      - name: Deploy hexo
+        run: |
+          hexo g -d
