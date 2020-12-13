@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的博客 #网站标题
-subtitle: 又一个GoodHexo小站 #网站副标题
+title: 我的项目报告 #网站标题
+# subtitle: 又一个GoodHexo小站 #网站副标题
 description: 基于GoodHexo便携包搭建的博客，官方网站：http://yiwangmeng.com #网站描述
 keywords: '一网盟,yiwangmeng,GoodHexo,hexo便携版' #网站SEO关键词，多个词用英文逗号区隔
 author: 凹凸曼达人 #网站作者
@@ -23,11 +23,7 @@ language: zh-CN  #theme: maupassant，landscape，Annie
 # theme: volantis
 # theme: Annie
 # theme: matery 
-theme: materialize
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yourdomain.com  #如果绑定了域名这里配置自己的域名，否则配置github等二级域名
+theme: materializegithub.io  #如果绑定了域名这里配置自己的域名，否则配置github等二级域名
 root: /
 #permalink: :year/:month/:day/:title/  #链接发布格式
 permalink: :title.html
@@ -147,4 +143,7 @@ updated_option: false
 ##  repo: ssh://git@x.x.x.x:<your-port>/~/hexo.git
 
 deploy:
-  type:
+  type: git
+  repo: git@github.com:zchen11611/zchen11611.github.io.git
+  branch: master
+  message: update by actions
