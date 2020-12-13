@@ -6,6 +6,7 @@ toc: true
 comments: true
 keywords: 
 description: 
+![alt](/images/test.jpg)
 ---
 
 This webpage I will share my weekly reports, course project and any other contributions. All can be accessed using the top navigation menu:
