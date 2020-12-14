@@ -3,7 +3,7 @@ menu:
   Home: /Home.html
   Project: /Project.html
   Weekly Reports: /Weekly_Reports.html
-  Github: https://github.com/zchen11611/EE629
+  myGithub: https://github.com/zchen11611/EE629
 
 rss: /atom.xml
 
