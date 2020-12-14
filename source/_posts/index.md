@@ -17,7 +17,7 @@ The weekly reports page will be about my weekly work on the Internet of Things c
 
 The GitHub page will have a link to access my repository.
 
-My project will be an ios demo based on swift called Face recognition_live detection. 
+My project will be an ios demo based on object-c(swift) called Face recognition_live detection. 
 
 
 
