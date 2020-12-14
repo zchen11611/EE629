@@ -7,10 +7,10 @@
 
 @protocol FaceDetectorDelegate <NSObject>
 
-//图片上传成功
+//upload successful
 -(void)sendFaceImage:(UIImage *)faceImage;
 
-//图片上传失败
+//upload fail
 -(void)sendFaceImageError;
 
 @end
