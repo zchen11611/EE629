@@ -25,11 +25,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.navigationItem.title = @"人脸活体识别";
+    self.navigationItem.title = @"Live face recognition";
     
     self.faceBtn = [[UIButton alloc]initWithFrame:CGRectMake(50, 50, SCREEN_WIDTH-100, 50)];
     self.faceBtn.backgroundColor = [UIColor lightGrayColor];
-    [self.faceBtn setTitle:@"人脸识别" forState:0];
+    [self.faceBtn setTitle:@"Live face recognition" forState:0];
     [self.faceBtn addTarget:self action:@selector(pushToFaceStreamDetectorVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_faceBtn];
     
@@ -45,12 +45,12 @@
     imgView.frame = CGRectMake(50, 150, self.view.frame.size.width-100, (self.view.frame.size.width-100)/faceImage.size.width*faceImage.size.height);
     imgView.image = faceImage;
     
-    NSLog(@"图片上传成功");
+    NSLog(@"Picture uploaded successfully");
 }
 
 - (void)sendFaceImageError {
     
-    NSLog(@"图片上传失败");
+    NSLog(@"Picture uploaded fail");
 }
 
 -(void)pushToFaceStreamDetectorVC
